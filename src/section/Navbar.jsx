@@ -9,7 +9,6 @@ const NavItems =()=>{
           <a href={href} className='nav-li_a'>{name}</a>
         </li>
       ))}
-
     </ul>
   )
 }
@@ -30,7 +29,11 @@ Ebrahim
           </nav>
 
         </div>
-
+      </div>
+      <div className={`nav-sidebar ${isOpen ? 'max-h-screen': 'max-h-0'} overflow-hidden transition-all duration-300`}>
+    <nav className='p-5'>
+      <NavItems />
+    </nav>
       </div>
 
     </header>
