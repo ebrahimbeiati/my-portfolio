@@ -1,6 +1,7 @@
 import About from "./section/About"
 import Hero from "./section/Hero"
 import Navbar from "./section/Navbar"
+import Projects from "./section/Projects"
 
 export const App = () => {
   return (
@@ -8,6 +9,7 @@ export const App = () => {
    <Navbar/>
    <Hero/>
    <About/>
+   <Projects/>
    </main>
   )
 }
