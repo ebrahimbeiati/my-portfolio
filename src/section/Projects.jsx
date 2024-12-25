@@ -26,7 +26,7 @@ const Projects = () => {
         };
    const currentProject = myProjects[selectedProjectIndex];
   return (
-    <section className="c-space my-20">
+    <section className="c-space my-20" id="projects">
         <p className="head-text">Projects</p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-12 w-full gap-4">
             <div className="flex flex-col gap-5 relative sm:p-9 shadow-2xl shadow-black-200">

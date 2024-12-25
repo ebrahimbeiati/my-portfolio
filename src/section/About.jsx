@@ -97,7 +97,7 @@ const About = () => {
   };
 
   return (
-    <section className="relative bg-gray-900 text-white py-20">
+    <section className="relative bg-gray-900 text-white py-20" id="about">
       {/* Background Overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-black to-gray-900 opacity-80"></div>
 
